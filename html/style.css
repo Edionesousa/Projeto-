@@ -43,18 +43,15 @@ li{
 /*cong principal*/
 
 .principalMain{
-    display: flex;
-    justify-content: center;
-    justify-content: baseline;
-    text-align: center;
-    width: 100%;
-    align-self: center;
-    
-    
+display: flex; 
+flex-wrap: wrap;  
+
 }
-.principalMain > .produto{
+.produto{
+    flex-wrap: wrap;
     background-color: #dad5b7;
-    width: 25%;
+    width: 25vh;
+    height: auto;
     margin: 2px;
     text-align: center;
     align-self: center;
