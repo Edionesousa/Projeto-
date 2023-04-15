@@ -41,17 +41,25 @@ li{
 
 
 /*cong principal*/
+
 .principalMain{
     display: flex;
-    background-color: #c2b79b;
+    justify-content: center;
+    justify-content: baseline;
+    text-align: center;
+    width: 100%;
+    align-self: center;
+    
     
 }
 .principalMain > .produto{
-    justify-content: center;
-    text-align: center  ;
     background-color: #dad5b7;
+    width: 25%;
     margin: 2px;
-    padding: 2px;
+    text-align: center;
+    align-self: center;
+
+
 }
 
 
