@@ -46,7 +46,7 @@ li{
 }
 
 
-/*cong principal*/
+/*config principal*/
 
 .principalMain{
     display: flex; 
@@ -72,8 +72,9 @@ li{
     text-align: center;
     align-self: center;
 
-
+    
 }
+/* media, para orientar telas grandes e pequenas*/
 @media (max-width:767px) {
     .principalMain{
         margin-left: 2px;
