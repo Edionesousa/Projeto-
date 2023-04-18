@@ -103,5 +103,14 @@ li{
     height:10%;
 
 }
+#redesSociais{
+    display: flex; 
+    justify-content:flex-end;
+    text-decoration: none;
+    padding: 6px;
+    margin: 0px;
+    gap: 30px;
+    z-index: 1;
+}
 
 
