@@ -23,6 +23,7 @@
     margin: 2px;
     text-align: center;
     align-self: center;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.467);
 
 }
 
@@ -58,6 +59,8 @@ img{
     border-radius: 3px;
     color: whitesmoke;
     z-index: 1;
+    box-shadow: 1px 5px 36px rgba(0, 0, 0, 0.467);
+
 
 }
 p{
