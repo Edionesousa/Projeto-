@@ -18,6 +18,7 @@ body
 header
 main
 footer{
+    background-color: #3a5f6f;
     flex-wrap: wrap; 
     position: relative; 
     width:  100%;
@@ -30,28 +31,30 @@ footer{
 #nav{
     display: flex;
     justify-content: space-around;
-    background-color: red;
+    color: whitesmoke;
+    padding: 5px;
     width: 100%;
-    margin-top: 0;
 }
 #menu{
     display: flex;
     justify-content: space-around;
-    margin: 10px;
     color: whitesmoke;
 }
 ul{
 
     display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
     background-color:#665e52;
     height: auto;
     
 }
-li{
+.pgVendas >li{
     display: flex;
-    flex-wrap: wrap;  
-    width: 25vh;
     justify-content: space-around;
+    flex-wrap: wrap; 
+    width: 100%;
     margin: 1%;
     color: whitesmoke;
     width: 100%;
@@ -77,10 +80,10 @@ li{
     
 }
 /* media, para orientar telas grandes e pequenas*/
-@media (max-width:767px) {
+@media (min-width:767px) {
     .principalMain{
-        margin-left: 2px;
-        margin-right: 2px;
+        margin-left: 0;
+        margin-right: 0;
     }
     
 }
@@ -97,7 +100,7 @@ li{
 
 }
 #redesSociais{
-    display: flex; 
+    display: flex;
     justify-content:flex-end;
     text-decoration: none;
     padding: 6px;

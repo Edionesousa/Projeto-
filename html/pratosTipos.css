@@ -9,7 +9,7 @@
 
 .principalMain{
     display: flex;
-    background-color: #3a5f6f;
+    background-color: whitesmoke;
 
 }
 .pgVendas{
@@ -26,8 +26,10 @@
 
 }
 
-.img >img{
+.img 
+img{
     display: flex;
+    background-color:whitesmoke;
     border-radius: 10px 10px 0px 0px;
     background-image:auto;
     image-orientation:from-image;
@@ -38,20 +40,32 @@
 
 }
 .pratoList >li{
+    display: flex;
+    justify-content:flex-start;
+    margin: 5px;
     color: #243757;
     font-size: 14px;
 
 }
 .fazerPedido >button{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-
     background-color: rgba(0, 128, 0, 0.953);
-    width: 165px;
+    width: 95%;
     margin: 5px;
     padding: 5px;
     border-radius: 3px;
     color: whitesmoke;
     z-index: 1;
 
+}
+p{
+    display: flex;
+    justify-content: space-around;
+    background-color:#665e52c4;
+    color: whitesmoke;
+    margin-top: -2;
+    width: 100%;
+    z-index: 1;
 }
