@@ -35,6 +35,10 @@ footer{
     width: 100%;
     margin-top: -1;
 }
+#menu{
+    margin: 10px;
+    color: whitesmoke;
+}
 ul{
 
     display:flex;
@@ -81,8 +85,6 @@ li{
     margin: 2px;
     text-align: center;
     align-self: center;
-
-    
 }
 /* media, para orientar telas grandes e pequenas*/
 @media (max-width:767px) {
@@ -109,7 +111,7 @@ li{
     text-decoration: none;
     padding: 6px;
     margin: 0px;
-    gap: 30px;
+    gap: 5px;
     z-index: 1;
 }
 
