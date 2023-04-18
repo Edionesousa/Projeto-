@@ -1,0 +1,57 @@
+
+.color{
+    headerColor:#665e52;
+    main-Color1:#c2b79b;
+    main-Color2:#dad5b7;
+    footer-Color1:#3a5f6f;
+    footer-Color2:#243757
+}
+
+.principalMain{
+    display: flex;
+    background-color: #3a5f6f;
+
+}
+.pgVendas{
+    justify-content: space-around;
+    flex-grow: 3;
+    gap: 2vh;
+    background-color: #dad5b7;
+    max-width: 315px;
+    height: auto;
+    margin-top: 5px;
+    margin: 2px;
+    text-align: center;
+    align-self: center;
+
+}
+
+.img >img{
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    background-image:auto;
+    image-orientation:from-image;
+    margin: 0px;
+    width: 315px;
+    height: 100px;
+    z-index: 0;
+
+}
+.pratoList >li{
+    color: #243757;
+    font-size: 14px;
+
+}
+.fazerPedido >button{
+    display: flex;
+    align-items: center;
+
+    background-color: rgba(0, 128, 0, 0.953);
+    width: 165px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    color: whitesmoke;
+    z-index: 1;
+
+}
