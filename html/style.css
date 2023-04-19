@@ -106,7 +106,7 @@ ul{
     justify-content:flex-end;
     text-decoration: none;
     padding: 6px;
-    margin: 10px;
+    margin: 10  px;
     gap: 5px;
     z-index: 1;
     box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.467);

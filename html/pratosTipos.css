@@ -53,6 +53,7 @@ img{
     justify-content: space-around;
     align-items: center;
     background-color: rgba(0, 128, 0, 0.953);
+    text-transform: uppercase;
     width: 95%;
     margin: 5px;
     padding: 5px;
